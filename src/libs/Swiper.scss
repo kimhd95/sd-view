@@ -1,0 +1,23 @@
+.cover_slide {
+  overflow: hidden;
+  padding: 0 15px;
+  background: #fff;
+}
+.cover_slide .swiper-container {
+  width: 121.7%;
+}
+
+.cover_slide .slide {
+  overflow-x: auto;
+  margin-right: -15px;
+}
+.cover_slide .slide ul {
+  width: max-content;
+  font-size: 0;
+}
+.cover_slide .slide li {
+  display: inline-block;
+  width: 26vw;
+  margin-right: 10px;
+  font-size: 14px;
+}
