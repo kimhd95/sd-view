@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
 import Island from "./pages/Island/IslandInfo";
 import Restaurant from "./pages/Island/Restaurant";
 

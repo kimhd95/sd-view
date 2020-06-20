@@ -1,12 +1,10 @@
 import React from "react";
 import Container from "pages/Common/Container";
-import Pagination from "../components/organisms/Swiper/SwiperWithPagination";
-import PerView from "../components/organisms/Swiper/SwiperWithPerView";
 
 export default function Home() {
   return (
     <div id="container">
-      <Pagination />
+      {/* <Pagination />
       <div
         style={{
           width: "90%",
@@ -34,7 +32,7 @@ export default function Home() {
           </span>
         </p>
       </div>
-      <Container />
+      <Container /> */}
     </div>
   );
 }

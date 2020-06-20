@@ -1,22 +1,17 @@
 import React from "react";
 import Header from "../../components/organisms/Search/Header";
-import * as Text from "../../components/atom/Text/Text";
-import Menu from "../../components/organisms/Search/Restaurant/Menu";
+import SliderWithTitle from "../../components/organisms/Slider/SliderWithTitle";
+import ListWithTitle from "../../components/organisms/List/ListWithTitle";
+import "./Restaurant.scss";
 
-import SliderContent from "../../components/organisms/Slider/Slider";
-
-import * as Info from "../../components/atom/Info/Info";
+import List from "../../components/organisms/List/List";
 
 export default function Restaurant() {
   return (
-    <div>
+    <>
       <Header />
-      <Menu />
-
-      <SliderContent />
-
-      <Text.Title children="장봉도 식당 둘러보기" />
-      <Info.smallTitle children="장봉도 오후엔팬션" />
-    </div>
+      <SliderWithTitle />
+      <ListWithTitle />
+    </>
   );
 }

@@ -1,22 +1,52 @@
 import React from "react";
 import "./Text.scss";
 
-export const Title = ({ children = "", ...props }) => {
-  return <p className="title" {...props} children={"# " + children} />;
+export const TXT22B = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={props.className ? props.className + " txt_22b" : "txt_22b"}
+      children={children}
+    />
+  );
 };
 
-export const LargeTitle = ({ children = "", ...props }) => {
-  return <p className="large_title" {...props} children={children} />;
+export const TXT20M = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={props.className ? props.className + " txt_20m" : "txt_20m"}
+      children={children}
+    />
+  );
 };
 
-export const MediumTitle = ({ children = "", ...props }) => {
-  return <p className="medium_title" {...props} children={children} />;
+export const TXT16 = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={props.className ? props.className + " txt_16" : "txt_16"}
+      children={children}
+    />
+  );
 };
 
-export const SmallTitle = ({ children = "", ...props }) => {
-  return <p className="small_title" {...props} children={children} />;
+export const TXT14 = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={props.className ? props.className + " txt_14" : "txt_14"}
+      children={children}
+    />
+  );
 };
 
-export const SubTitle = ({ children = "", ...props }) => {
-  return <p className="sub_title" {...props} children={children} />;
+export const TXT12 = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={props.className ? props.className + " txt_12" : "txt_12"}
+      children={children}
+    />
+  );
 };

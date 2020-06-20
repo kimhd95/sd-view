@@ -1,0 +1,19 @@
+.list_content {
+  padding: 15px 0;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.left {
+  width: 70px;
+  float: left;
+  clear: both;
+  margin-left: 15px;
+}
+
+.right {
+  display: flex;
+  height: 70px;
+  margin-left: 90px;
+  flex-direction: column;
+  justify-content: space-around;
+}
