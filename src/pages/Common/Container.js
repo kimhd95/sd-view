@@ -1,9 +1,11 @@
 import React from "react";
 import { Route, Link } from "react-router-dom";
+import Header from "../../components/organisms/Common/Header";
 
 export default function Container() {
   return (
     <div className="nav_wrap">
+      <Header />
       <ul className="nav">
         <Route
           path="/study"

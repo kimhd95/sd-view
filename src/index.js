@@ -8,7 +8,8 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Restaurant} />
-      <Route path="/search/:id" component={Island} />
+      <Route exact path="/search/:id" component={Island} />
+      <Route path="/search/:id/restaurant" component={Restaurant} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

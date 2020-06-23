@@ -1,28 +1,26 @@
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.menuTabUl {
+.top_nav {
   padding: 10px 15px;
   font-size: 0;
   box-sizing: border-box;
+  border-bottom: 1px solid #ebebeb;
 }
 
-.menuTabUl li {
+.top_nav li {
   display: inline-block;
   width: calc((100% - 30px) / 4);
   height: 35px;
   margin-left: 10px;
-  background: #f6f6f6;
   line-height: 35px;
   text-align: center;
-  border-radius: 3px;
-  box-sizing: border-box;
 }
 
-.menuTabUl li:first-child {
+.top_nav li:first-child {
   margin-left: 0;
+}
+
+.top_nav_active {
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }
