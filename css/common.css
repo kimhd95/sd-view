@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.organism {
+  padding: 20px 0 20px 0;
+}
+
+.inline {
+  display: inline;
+}
+
+.gray {
+  color: #999999;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+a:link {
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+a:focus {
+  color: #000;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
