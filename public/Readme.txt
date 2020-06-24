@@ -23,6 +23,12 @@ INST : yarn add react-id-swiper@latest swiper@latest
 ADD : index.js에 CDN (script & css) 추가
 DESC : 스와이퍼
 
+NAME : gh-pages
+URL : https://www.npmjs.com/package/gh-pages
+INST : yarn add gh-pages
+ADD : package.json에 homepage 추가 / scripts에 deploy, predeploy 추가
+DESC : 페이지 공유를 위한 github pages
+
 NAME :
 URL :
 INST :
