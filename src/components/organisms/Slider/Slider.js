@@ -9,7 +9,7 @@ export default function Slider(props) {
    * imgPath, subTitle, title
    */
 
-  const swiperParams = {
+  const params = {
     slidesPerView: "auto",
     spaceBetween: 20,
   };
@@ -42,7 +42,7 @@ export default function Slider(props) {
   ];
 
   return (
-    <Swiper {...swiperParams}>
+    <Swiper {...params}>
       {arr.map((e, index) => {
         return (
           <SliderContent

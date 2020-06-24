@@ -7,9 +7,6 @@ export default function TopNavigation(props) {
   const history = useHistory();
   const pathName = history.location.pathname;
 
-  console.log(history);
-  console.log(pathName);
-
   const arr = [
     { to: "/infomation", children: "종합정보" },
     { to: "/ferry", children: "배편" },
@@ -20,9 +17,6 @@ export default function TopNavigation(props) {
   return (
     <ul className="top_nav">
       {arr.map((e, index) => {
-        console.log(pathName);
-        console.log(e.to);
-        console.log(pathName.includes(e.to));
         return (
           <TopNavContents
             key={index}
