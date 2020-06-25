@@ -20,8 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "deploy": "aws s3 sync ./build s3://sumday-dev-view --profile=sumday-s3"
   },
   "eslintConfig": {
     "extends": "react-app"

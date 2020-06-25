@@ -5,7 +5,9 @@ export const TXT22B = ({ children = "", ...props }) => {
   return (
     <p
       {...props}
-      className={props.className ? props.className + " txt_22b" : "txt_22b"}
+      className={
+        props.className ? props.className + " txt_22 bold" : "txt_22 bold"
+      }
       children={children}
     />
   );
@@ -15,7 +17,21 @@ export const TXT20M = ({ children = "", ...props }) => {
   return (
     <p
       {...props}
-      className={props.className ? props.className + " txt_20m" : "txt_20m"}
+      className={
+        props.className ? props.className + " txt_20 medium" : "txt_20 medium"
+      }
+      children={children}
+    />
+  );
+};
+
+export const TXT16M = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={
+        props.className ? props.className + " txt_16 medium" : "txt_16 medium"
+      }
       children={children}
     />
   );

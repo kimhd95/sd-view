@@ -14,6 +14,14 @@ body {
   color: #999999;
 }
 
+.description {
+  color: #676767;
+}
+
+.contents {
+  margin: 12px 15px;
+}
+
 a {
   margin: 0;
   padding: 0;

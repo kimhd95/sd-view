@@ -16,3 +16,7 @@ export const SmallThumb = ({ src, alt, ...props }) => {
 export const BackImg = ({ src, alt, ...props }) => {
   return <img {...props} className="back_img" src={src} alt={alt} />;
 };
+
+export const ProfileThumb = ({ src, alt, ...props }) => {
+  return <img {...props} className="profile_thumb" src={src} alt={alt} />;
+};
