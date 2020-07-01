@@ -20,3 +20,7 @@ export const BackImg = ({ src, alt, ...props }) => {
 export const ProfileThumb = ({ src, alt, ...props }) => {
   return <img {...props} className="profile_thumb" src={src} alt={alt} />;
 };
+
+export const AccommodationThumb = ({ src, alt, ...props }) => {
+  return <img {...props} className="accommodation_thumb" src={src} alt={alt} />;
+};

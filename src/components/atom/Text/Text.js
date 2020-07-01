@@ -25,6 +25,18 @@ export const TXT20M = ({ children = "", ...props }) => {
   );
 };
 
+export const TXT18M = ({ children = "", ...props }) => {
+  return (
+    <p
+      {...props}
+      className={
+        props.className ? props.className + " txt_18 medium" : "txt_18 medium"
+      }
+      children={children}
+    />
+  );
+};
+
 export const TXT16M = ({ children = "", ...props }) => {
   return (
     <p
