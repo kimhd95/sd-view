@@ -8,7 +8,7 @@ export function GetAxios(reqUrl, type, data = "") {
         console.log(data);
 
         axios
-            .get(apiUrl + reqUrl, { data })
+            .get(apiUrl + reqUrl, { params: data })
             .then((response) => {
                 console.log(response);
                 resolve(response);
@@ -41,7 +41,7 @@ export function PostAxios(reqUrl, type, data = "") {
 
 function getApiUrl(type) {
     let apiUrl = "";
-    const SERVER_URL = "https://ec2-15-164-213-79.ap-northeast-2.compute.amazonaws.com";
+    const SERVER_URL = "http://ec2-15-164-213-79.ap-northeast-2.compute.amazonaws.com:6002";
     const BASIC_ROUTER = "/api/v1/users/";
     const REST_ROUTER = "/api/v1/rest/";
     const ACCO_ROUTER = "/api/v1/acco/";
