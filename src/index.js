@@ -10,7 +10,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       {/* <Route exact path="/" component={Accommodation} /> */}
-      <Route exact path="/" component={AccommodationDetail} />
+      <Route exact path="/" component={Accommodation} />
       <Route path="/search/:id/accommodation" component={Accommodation} />
     </Switch>
   </BrowserRouter>,

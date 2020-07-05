@@ -1,0 +1,27 @@
+.TitleWithLink{
+    margin:20px auto 0px auto;
+    box-sizing: border-box;
+    width: 300px;
+    display: flex;
+    vertical-align: middle;
+}
+
+.TitleWithLink p{
+    vertical-align: middle;
+}
+
+.ViewAll{
+    vertical-align: middle;
+    margin-left:40%;
+    text-align:center;
+}
+
+.ViewAll p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ViewAll img{
+    display: inline-block;
+    vertical-align: middle;
+}

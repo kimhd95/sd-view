@@ -1,4 +1,14 @@
+input[type='date']{
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+}
 
-.saturday { color: rgb(0, 0, 255) !important; } 
-.sunday { color: rgb(255, 0, 0) !important; } 
-.react-datepicker__day--disabled { color: #cccccc !important; }
+.datepicker_wrap{
+    margin:0 auto;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    padding:10px 15px;
+    box-sizing: border-box;
+    min-width: 380px;
+}

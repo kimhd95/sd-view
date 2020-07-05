@@ -29,6 +29,12 @@ INST : yarn add gh-pages
 ADD : package.json에 homepage 추가 / scripts에 deploy, predeploy 추가 / github gitbook 설정
 DESC : 페이지 공유를 위한 github pages
 
+NAME : react-datepicker
+URL  : https://www.npmjs.com/package/react-datepicker
+INST : npm install react-datepicker --save
+DESC : datepicker용 패키지 
+
+
 NAME :
 URL :
 INST :

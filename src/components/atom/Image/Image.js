@@ -24,3 +24,7 @@ export const ProfileThumb = ({ src, alt, ...props }) => {
 export const AccommodationThumb = ({ src, alt, ...props }) => {
   return <img {...props} className="accommodation_thumb" src={src} alt={alt} />;
 };
+
+export const ViewAllImg = ({ src, alt, ...props }) => {
+  return <img {...props} className="view_all_img" src={src} alt={alt} />;
+};
